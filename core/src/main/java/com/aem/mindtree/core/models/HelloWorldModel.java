@@ -27,7 +27,7 @@ import org.apache.sling.settings.SlingSettingsService;
 public class HelloWorldModel {
 
 
-
+//Added comment
 	@Inject
 	@Named("sling:resourceType")
 	@Default(values = "No resourceType")
