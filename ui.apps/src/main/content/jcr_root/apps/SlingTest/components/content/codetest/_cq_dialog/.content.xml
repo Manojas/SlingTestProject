@@ -60,7 +60,7 @@
                                 fileReferenceParameter="./fileReference"
                                 mimeTypes="[image/gif,image/jpeg,image/png,image/tiff,image/svg+xml]"
                                 multiple="{Boolean}false"
-                                name="./fileUpload"
+                                name="./file"
                                 title="Upload Image Asset"
                                 uploadUrl="${suffix.path}"
                                 useHTML5="{Boolean}true"/>
