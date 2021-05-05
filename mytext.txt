@@ -1,6 +1,9 @@
 I
 am
 a 
+<<<<<<< HEAD
 hockey
+=======
 basket ball
+>>>>>>> user1
 player
