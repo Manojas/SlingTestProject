@@ -2,28 +2,34 @@ package com.aem.mindtree.core.models;
 
 import java.util.List;
 
+import javax.inject.Inject;
+
 import org.apache.sling.api.SlingHttpServletRequest;
+import org.apache.sling.api.resource.Resource;
 import org.apache.sling.models.annotations.Model;
-import org.apache.sling.models.annotations.injectorspecific.ValueMapValue;
+
+import org.apache.sling.models.annotations.Default;
 import org.apache.sling.models.annotations.DefaultInjectionStrategy;
 
-@Model(adaptables=SlingHttpServletRequest.class,
+@Model(adaptables=Resource.class,
 adapters=SlingTestInterface.class,
 defaultInjectionStrategy=DefaultInjectionStrategy.OPTIONAL)
 public class SlingTestImpl implements SlingTestInterface{
 
-	@ValueMapValue
+	@Inject
 	List<String> names;
 	//i have changed something.
-	@ValueMapValue
+	@Inject
 	String pathBrowser;
-
-	@ValueMapValue
+	
+	@Inject
+	@Default(values="true")
 	Boolean isIndian;
 	//this is boolean
-	@ValueMapValue
+	@Inject
 	String gender;
-	@ValueMapValue
+	
+	@Inject
 	String fileReference;
 	
 	@Override
