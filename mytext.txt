@@ -1,5 +1,9 @@
 I
 am
 a 
-cricket
+<<<<<<< HEAD
+hockey
+=======
+basket ball
+>>>>>>> user1
 player
