@@ -1,0 +1,27 @@
+h3{
+           color:white;
+        background-color:black;
+        font-size:30px;
+
+    } 
+
+p{
+          color:green;
+          background-color:pink;
+            }
+
+.container{
+  color:bisque;
+        background-color:silver;
+    }
+.align-left{
+        text-align:left;
+    }
+
+.align-right{
+            text-align:right;
+        }
+
+.align-center{
+            text-align:center;
+        }

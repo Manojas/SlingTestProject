@@ -1,0 +1,43 @@
+p{
+        color:red;
+        background-color:blue;
+        font-size:10px;
+
+    }
+
+h1{
+           color:bisque;
+        background-color:silver;
+        font-size:15px;
+
+    }
+
+h2{
+           color:blue;
+        background-color:red;
+        font-size:20px;
+
+    }
+
+h3{
+           color:white;
+        background-color:black;
+        font-size:30px;
+
+    } 
+
+ div{
+          color:green;
+          background-color:pink;
+            }
+.align-left{
+        text-align:left;
+    }
+
+.align-right{
+            text-align:right;
+        }
+
+.align-center{
+            text-align:center;
+        }

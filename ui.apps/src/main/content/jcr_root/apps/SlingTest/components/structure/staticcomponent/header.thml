@@ -1,0 +1,7 @@
+<style>
+h3{
+background-color:silver;
+color:bisque;
+}
+</style>
+<h3><center>This is the header of my page<center></h3>

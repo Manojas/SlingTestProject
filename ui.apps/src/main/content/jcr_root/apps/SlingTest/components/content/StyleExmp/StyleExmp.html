@@ -1,0 +1,10 @@
+<div data-sly-use.rs="com.aem.mindtree.core.models.PageInformationModel"></div>
+${rs.path}
+<p>Title:${rs.PageInformation.title}</p>
+<p>Path:${rs.PageInformation.path}</p>
+
+    <p>All the page information</p>
+<ol data-sly-list = "${rs.pageInformation.Childreninformation}">
+
+	<li>${item}</li>
+</ol>
